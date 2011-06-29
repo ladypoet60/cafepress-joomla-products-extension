@@ -11,34 +11,38 @@ The CafePress Products Extension was created to answer the call of many affiliat
 == Installing the extension
 
 1. Tinymce Plugin (cafepress_backend.zip)
-  * Login to the admin back-end of Joomla
-  * Go to Extensions > Extension Manager. Click on the install tab
-  * Click Browse in the Upload Package File section of the page. Browse and install the cafepress_backend.zip
-  * Go to Extensions > Plug-in Manager. Click on "Button - CafePress" . Make sure it is Enabled and Save and Close
-  * Go to Content > Article Manager > Add New Article . The CafePress Button should be at the button of the TinyMCE editor
-  * Click on the button and provide the info
-	* Set "Start Publishing" to a past date and "Finish Publishing" to a future date
-	* Save and Close 
 
-Note: For the article to show up make sure when you save it that the Start Publishing is in the past date and Finish Publishing is in the future date. 
+* Login to the admin back-end of Joomla
+* Go to Extensions > Extension Manager. Click on the install tab
+* Click Browse in the Upload Package File section of the page. Browse and install the cafepress_backend.zip
+* Go to Extensions > Plug-in Manager. Click on "Button - CafePress" . Make sure it is Enabled and Save and Close
+* Go to Content > Article Manager > Add New Article . The CafePress Button should be at the button of the TinyMCE editor
+* Click on the button and provide the info
+* Set "Start Publishing" to a past date and "Finish Publishing" to a future date
+* Save and Close 
 
 2. Content Plugin (cafepress_frontend.zip)
-  * Login to the admin back-end of Joomla
-  * Go to Extensions > Extension Manager. Click on the install tab
-  * Click Browse in the Upload Package File section of the page. Browse and install the cafepress_frontend.zip
-  * Go to Extensions > Plug-in Manager. Click on "Content - CafePress" . Make sure it is Enabled and Save and Close
-  * Go to the Article where you inserted a CafePress short-code
+
+* Login to the admin back-end of Joomla
+* Go to Extensions > Extension Manager. Click on the install tab
+* Click Browse in the Upload Package File section of the page. Browse and install the cafepress_frontend.zip
+* Go to Extensions > Plug-in Manager. Click on "Content - CafePress" . Make sure it is Enabled and Save and Close
+* Go to the Article where you inserted a CafePress short-code
 
 3. CafePress Widget (mod_cafepresswidget.zip)
-  * Login to the admin back-end of Joomla
-  * Go to Extensions > Extension Manager. Click on the install tab
-  * Click Browse in the Upload Package File section of the page. Browse and install the mod_cafepresswidget.zip
-  * Go to Extensions > Module Manager. Click on "Widget - CafePress"
-  * Modify the Position. I selected position-7 , this will show the widget at the left or right navigation of the front-end
-  * Set the Start Publishing and Finish Publishing. This is similar to saving in articles.
-  * In the Basic Options panel at the right side of the page you can modify the options. This is the same as the TinyMCE plugin, only difference is the theme
-  * Save and close
 
-NOTE: for all of the above make sure in the Plug-in Manager and Module Manager listing their status is Published(green check mark)
-If not click on the status to publish it.
+* Login to the admin back-end of Joomla
+* Go to Extensions > Extension Manager. Click on the install tab
+* Click Browse in the Upload Package File section of the page. Browse and install the mod_cafepresswidget.zip
+* Go to Extensions > Module Manager. Click on "Widget - CafePress"
+* Modify the Position. I selected position-7 , this will show the widget at the left or right navigation of the front-end
+* Set the Start Publishing and Finish Publishing. This is similar to saving in articles.
+* Modify the options using the Basic Options panel at the right side of the page. 
+* Save and close
+
+== NOTES
+
+* For the article to show up make sure when you save it that the Start Publishing is in the past date and Finish Publishing is in the future date. 
+* For all of the above make sure in the Plug-in Manager and Module Manager listing their status is Published (green check mark). If not click on the status to publish it.
+
 
