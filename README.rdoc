@@ -42,7 +42,7 @@ The CafePress Products Extension was created to answer the call of many affiliat
 
 == NOTES
 
-* For the article to show up make sure when you save it that the Start Publishing is in the past date and Finish Publishing is in the future date. 
-* For all of the above make sure in the Plug-in Manager and Module Manager listing their status is Published (green check mark). If not click on the status to publish it.
+   * For the article to show up make sure when you save it that the Start Publishing is in the past date and Finish Publishing is in the future date. 
+   * For all of the above make sure in the Plug-in Manager and Module Manager listing their status is Published (green check mark). If not click on the status to publish it.
 
 
