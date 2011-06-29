@@ -1,0 +1,42 @@
+== Description
+
+The CafePress Products Extension was created to answer the call of many affiliates: I want a fun way to advertise my gear and earn money at the same time. We've finally created the perfect tool for affiliates and shopkeepers alike to promote their merchandise and generate sales.  You can use it to display your favorite goodies for fun as well!
+
+== Files
+
+1. cafepress_backend.zip - adds cafepress button to tinymce. This builds the shortcode that is inserted to the articles
+2. cafepress_frontend.zip - converts any shortcode that is found in the article text in the frontend to the actual product listing it requires the backend plugin.
+3. mod_cafepresswidget.zip - module that inserts the animated widget. This can be independently installed without the plugins
+
+== Installing the extension
+
+1. Tinymce Plugin (cafepress_backend.zip)
+  * Login to the admin backend of joomla
+  * Go to Extensions > Extension Manager. Click on the install tab
+  * Click Browse in the Upload Package File section of the page. Browse and install the cafepress_backend.zip
+  * Go to Extensions > Plug-in Manager. Click on "Button - CafePress" . Make sure it is Enabled and Save and Close
+  * Go to Content > Article Manager > Add New Article . The CafePress Button should be at the buttom of the tinymce editor
+  * Click on the button and provide the info
+  * For the article to show up make sure when you save it that the Start Publishing is in the past date and Finish Publishing is in the future date. 
+	* Save and Close 
+
+2. Content Plugin (cafepress_frontend.zip)
+  * Login to the admin backend of joomla
+  * Go to Extensions > Extension Manager. Click on the install tab
+  * Click Browse in the Upload Package File section of the page. Browse and install the cafepress_frontend.zip
+  * Go to Extensions > Plug-in Manager. Click on "Content - CafePress" . Make sure it is Enabled and Save and Close
+  * Go to the Article where you inserted a CafePress shortcode
+
+3. CafePress Widget (mod_cafepresswidget.zip)
+  * Login to the admin backend of joomla
+  * Go to Extensions > Extension Manager. Click on the install tab
+  * Click Browse in the Upload Package File section of the page. Browse and install the mod_cafepresswidget.zip
+  * Go to Extensions > Module Manager. Click on "Widget - CafePress"
+  * Modify the Position. I selected position-7 , this will show the widget at the left or right navigation of the frontend
+  * Set the Start Publishing and Finish Publishing. This is similar to saving in articles.
+  * In the Basic Options panel at the right side of the page you can modify the options. This is the same as the tinymce plugin, only difference is the theme
+  * Save and close
+
+NOTE: for all of the above make sure in the Plug-in Manager and Module Manager listing their status is Published(green check mark)
+If not click on the status to publish it.
+
