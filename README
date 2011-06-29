@@ -1,0 +1,47 @@
+Installing the plugins and widgets
+
+Files
+1) cafepress_backend.zip - adds cafepress button to tinymce. This builds the shortcode that is inserted to the articles
+2) cafepress_frontend.zip - converts any shortcode that is found in the article text in the frontend to the actual product listing it requires the backend plugin.
+3) mod_cafepresswidget.zip - module that inserts the animated widget. This can be independently installed without the plugins
+
+I. Tinymce Plugin (cafepress_backend.zip)
+  1) Login to the admin backend of joomla
+  2) Go to Extensions > Extension Manager. Click on the install tab
+  3) Click Browse in the Upload Package File section of the page. Browse and install the cafepress_backend.zip
+  4) Go to Extensions > Plug-in Manager. Click on "Button - Cafepress" . Make sure it is Enabled and Save and Close
+  5) Go to Content > Article Manager > Add New Article . The Cafepress Button should be at the buttom of the tinymce editor
+  6) Click on the button and provide the infos
+  for reference you can check on this http://ca1-cos-sem02.corp.cafepress.com/joomla/administrator/index.php?option=com_content&view=article&layout=edit&id=68
+  7) for the article to show up make sure when you save it that the Start Publishing is in the past date and Finish Publishing is in the future date. After Save and Close make sure it is published
+
+II. Content Plugin (cafepress_frontend.zip)
+  1) Login to the admin backend of joomla
+  2) Go to Extensions > Extension Manager. Click on the install tab
+  3) Click Browse in the Upload Package File section of the page. Browse and install the cafepress_frontend.zip
+  4) Go to Extensions > Plug-in Manager. Click on "Content - Cafepress" . Make sure it is Enabled and Save and Close
+  5) Go to the Article where you inserted a cafepress shortcode
+  for reference you can check on this http://ca1-cos-sem02.corp.cafepress.com/joomla/index.php/park-blog/68-plugin-test
+
+III. Cafepress Widget (mod_cafepresswidget.zip)
+  1) Login to the admin backend of joomla
+  2) Go to Extensions > Extension Manager. Click on the install tab
+  3) Click Browse in the Upload Package File section of the page. Browse and install the mod_cafepresswidget.zip
+  4) Go to Extensions > Module Manager. Click on "Widget - Cafepress"
+  5) Modify the Position. I selected position-7 , this will show the widget at the left or right navigation of the frontend
+  6) Set the Start Publishing and Finish Publishing. This is similar to saving in articles.
+  7) In the Basic Options panel at the right side of the page you can modify the options. This is the same as the tinymce plugin, only difference is the theme
+  8) Save and close
+  For backend reference
+  http://ca1-cos-sem02.corp.cafepress.com/joomla/administrator/index.php?option=com_modules&view=module&layout=edit&id=77
+
+  For the frontend
+  http://ca1-cos-sem02.corp.cafepress.com/joomla/index.php/park-blog/68-plugin-test
+  http://ca1-cos-sem02.corp.cafepress.com/joomla/
+
+  As you can see selecting position-7 will show it the left or right nav depending on the template used.
+
+
+NOTE: for all of the above make sure in the Plug-in Manager and Module Manager listing their status is Published(green check mark)
+If not click on the status to publish it.
+
