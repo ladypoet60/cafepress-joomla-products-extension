@@ -12,33 +12,33 @@ The CafePress Products Extension was created to answer the call of many affiliat
 
 1. Tinymce Plugin (cafepress_backend.zip)
 
-* Login to the admin back-end of Joomla
-* Go to Extensions > Extension Manager. Click on the install tab
-* Click Browse in the Upload Package File section of the page. Browse and install the cafepress_backend.zip
-* Go to Extensions > Plug-in Manager. Click on "Button - CafePress" . Make sure it is Enabled and Save and Close
-* Go to Content > Article Manager > Add New Article . The CafePress Button should be at the button of the TinyMCE editor
-* Click on the button and provide the info
-* Set "Start Publishing" to a past date and "Finish Publishing" to a future date
-* Save and Close 
+   * Login to the admin back-end of Joomla
+   * Go to Extensions > Extension Manager. Click on the install tab
+   * Click Browse in the Upload Package File section of the page. Browse and install the cafepress_backend.zip
+   * Go to Extensions > Plug-in Manager. Click on "Button - CafePress" . Make sure it is Enabled and Save and Close
+   * Go to Content > Article Manager > Add New Article . The CafePress Button should be at the button of the TinyMCE editor
+   * Click on the button and provide the info
+   * Set "Start Publishing" to a past date and "Finish Publishing" to a future date
+   * Save and Close 
 
 2. Content Plugin (cafepress_frontend.zip)
 
-* Login to the admin back-end of Joomla
-* Go to Extensions > Extension Manager. Click on the install tab
-* Click Browse in the Upload Package File section of the page. Browse and install the cafepress_frontend.zip
-* Go to Extensions > Plug-in Manager. Click on "Content - CafePress" . Make sure it is Enabled and Save and Close
-* Go to the Article where you inserted a CafePress short-code
+   * Login to the admin back-end of Joomla
+   * Go to Extensions > Extension Manager. Click on the install tab
+   * Click Browse in the Upload Package File section of the page. Browse and install the cafepress_frontend.zip
+   * Go to Extensions > Plug-in Manager. Click on "Content - CafePress" . Make sure it is Enabled and Save and Close
+   * Go to the Article where you inserted a CafePress short-code
 
 3. CafePress Widget (mod_cafepresswidget.zip)
 
-* Login to the admin back-end of Joomla
-* Go to Extensions > Extension Manager. Click on the install tab
-* Click Browse in the Upload Package File section of the page. Browse and install the mod_cafepresswidget.zip
-* Go to Extensions > Module Manager. Click on "Widget - CafePress"
-* Modify the Position. I selected position-7 , this will show the widget at the left or right navigation of the front-end
-* Set the Start Publishing and Finish Publishing. This is similar to saving in articles.
-* Modify the options using the Basic Options panel at the right side of the page. 
-* Save and close
+   * Login to the admin back-end of Joomla
+   * Go to Extensions > Extension Manager. Click on the install tab
+   * Click Browse in the Upload Package File section of the page. Browse and install the mod_cafepresswidget.zip
+   * Go to Extensions > Module Manager. Click on "Widget - CafePress"
+   * Modify the Position. I selected position-7 , this will show the widget at the left or right navigation of the front-end
+   * Set the Start Publishing and Finish Publishing. This is similar to saving in articles.
+   * Modify the options using the Basic Options panel at the right side of the page. 
+   * Save and close
 
 == NOTES
 
